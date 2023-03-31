@@ -1,7 +1,7 @@
 require 'telegram_bot'
 require 'yaml'
 
-token = '5898712040:AAE-ut-aF1e92kkk2HnO2RCZMJDiAb_NCLs'
+token = 'your_telegram_token'
 bot = TelegramBot.new(token: token)
 
 bot.get_updates() do |message|
